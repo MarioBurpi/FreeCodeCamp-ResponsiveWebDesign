@@ -1,0 +1,86 @@
+body {
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble.png);
+    background-repeat: repeat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: Lobster;
+    font-size: 4em;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem #000000;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+a {
+    color: #209bff;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: #68418d;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+    padding: 3%;
+    border-radius: 5px;
+    background: linear-gradient(#3f87a6, #333555);
+}
+
+fieldset {
+    border-radius: 5px;
+    margin: auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-field {
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.div-list {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.div-button {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+input,
+textarea,
+select {
+    width: 70%;
+}
+
+button {
+    width: 50%;
+    height: 3em;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.5em;
+    color: #000000;
+}

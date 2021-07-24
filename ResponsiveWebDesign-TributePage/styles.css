@@ -1,0 +1,137 @@
+/*User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.*/
+
+body {
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble.png);
+    background-repeat: repeat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+}
+
+
+/*User Story #9: The img element should be centered within its parent element.*/
+
+h1 {
+    font-family: Lobster;
+    font-size: 4em;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem #000000;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+a {
+    color: #209bff;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: #68418d;
+}
+
+#main {
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background: linear-gradient(#3f87a6, #333555);
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 5px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: stretch;
+}
+
+#img-div {
+    max-width: max-content;
+    background: #ffffff;
+    margin: auto;
+    padding: 1%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.img-gallery {
+    max-width: max-content;
+    background: #ffffff;
+    margin: auto;
+    padding: 3%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+figcaption {
+    font-size: 0.5rem;
+    text-align: center;
+    color: #000000;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1rem;
+    }
+}
+
+article {
+    text-align: justify;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+legend {
+    font-family: Lobster;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0.2rem 0.2rem #999999;
+    padding: 2%;
+}
+
+#quotes li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+#about {
+    text-align: center;
+    padding: 2%;
+}
+
+#footer {
+    text-align: center;
+    font-size: 0.5em;
+    color: #000000;
+}
